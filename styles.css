@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d3c9f8;
+  color: #1a1a1a;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+h1 {
+  color: rgb(41, 22, 109);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.5rem;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(22, 5, 173);
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p {
+  color: #222222;
+  font-size: 1rem;
+}
+
+.card {
+  background-color: #e8e2ff;
+  padding: 1rem 1.5rem;
+  border: 2px solid #cbd5e1;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px hsl(220 30% 20% / 0.12);
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #222222;
+}
+
+
+.destaque {
+  border-left: 5px solid rgba(42, 0, 139, 0.719);
+}
+
+.btn {
+  background-color: rgba(30, 0, 139, 0.829);
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #00005c;
+}
+
+.btn-primary {
+  background-color: darkgreen;
+}
+
+.btn.btn-primary:hover {
+  background-color: #004d00;
+}
